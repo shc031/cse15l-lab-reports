@@ -13,7 +13,7 @@ Link:
 ![Image](https://www.seekpng.com/png/detail/12-120961_up-arrow-png-picture-up-arrow-png.png)
 ```
 Thank you for visiting
-1. one
-2. two 
-3. three
+1) one
+2) two 
+3) three
 ```
