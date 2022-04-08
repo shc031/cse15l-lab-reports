@@ -6,13 +6,14 @@ _Testing_ `the` **code**
 * Te
 * Tes
 * Test
+1) one
+2) two 
+3) three
 Link:
 
 ***
 [Click Me](https://github.com/shc031/cse15l-lab-reports.git)
-1) one
-2) two 
-3) three
+
 
 
 
