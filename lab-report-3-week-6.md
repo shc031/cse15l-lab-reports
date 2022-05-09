@@ -33,3 +33,42 @@ Running git commands to commit and push a change to Github while logged into you
 
 ## Copy whole directories with scp -r
 
+I run scp command and copy my whole markdown-parse directory to my ieng6
+account:
+
+![Image](copy-1.PNG)
+
+![Image](copy-2.PNG)
+
+![Image](copy-3.PNG)	
+
+![Image](copy-4.PNG)	
+
+
+
+I log into my ieng6 account after doing this and compiling and running the tests for my repository by going to my markdown-parse directory and run javac, java command:
+
+![Image](copythanrun-5.PNG)
+
+I try to combined scp, ;, and ssh to copy the whole directory and run the tests in one line, but it does not work.
+
+![Image](error1.PNG)
+
+![Image](error2.PNG)
+
+(I went to office hour, but the problem did not solve, Tutor: Yukati Gupta told me to write this down in my lab report)
+
+It does not work when I run ```scp -r . cs15lsp22aad@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lsp22aad@ieng6.ucsd.edu “cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest”```.
+
+However, it works when I did ```scp -r . cs15lsp22aad@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lsp22aad@ieng6.ucsd.edu ``` first. 
+
+Then, ```cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest```.
+
+![Image](task3-1.PNG)
+
+![Image](task3-2.PNG)
+
+![Image](task3-3.PNG)
+
+
+
