@@ -18,6 +18,18 @@
 
 ## Setup Github Access from ieng6
 
+The private key and private key is stored in .ssh on my user account:
+![Image](before4.PNG)	
+
+Public key you made is stored on Github:
+![Image](KeyUserAccount4.PNG)	
+
+Running git commands to commit and push a change to Github while logged into your ieng6 account:
+![Image](gitcommands5.PNG)	
+
+[Resulting Commit](https://github.com/shc031/cse15l-lab-reports/commits/main)
+
 ---	
 
 ## Copy whole directories with scp -r
+
