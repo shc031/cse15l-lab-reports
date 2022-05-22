@@ -34,9 +34,9 @@ The implementation I reviewed in Week 7: Did not pass
 
 ## Possibility for Small Code Change
 
-* Snippet 1: I think there is a small code change that will make my program work for snippest 1, but not all related cases that use inline code with backticks. I could find if there are two backticks that contains ( and set the current index to the index after two backticks. However I am not able to check both ( and [ with less than 10 lines becuase I am not able to check ( and [ at the smae time.
+* Snippet 1: I think there is a small code change that will make my program work for snippest 1, but not all related cases that use inline code with backticks. I could find if there are two backticks that contains ( and set the current index to the index after two backticks. However I am not able to check both ( and [ with less than 10 lines becuase I am not able to check ( and [ at the same time.
 
-* Snippet 2: I think there is a small code change that will make my program work for snippest 2, but not all related ases that nest parentheses, brackets, and escaped brackets. I could check the nest parentheses by checking if there is () inside of (). Since it took me around 10 lines to check it, I do not think a samll code change can check all nest parentheses, brackets, and escaped brackets.
+* Snippet 2: I think there is a small code change that will make my program work for snippest 2, but not all related ases that nest parentheses, brackets, and escaped brackets. I could solve the nest parentheses problem by checking if there is () inside of (). Since it took me around 10 lines to check it, I do not think a samll code change can check all nest parentheses, brackets, and escaped brackets.
 
 * I do not think there is a small code change that will make my program work for snippest 3 and all related cases that have newline in brackets and paretheses. Since it has to check if there is extra line between () and [], and exclude thoses lines during the adding URL process, I believe it will takes more than 10 lines to do it.
 
